@@ -89,7 +89,7 @@
                                 <mkdir dir="${project.build.directory}/${project.artifactId}-${version.unrevise}" />
                                 <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}/${project.artifactId}-${version.unrevise}" />
                                 <echo message="moving resources" />
-                                <move todir="${destinationDir}">
+                                <move todir="${destDir}">
                                     <fileset dir="${project.build.directory}/${project.artifactId}-${version.unrevise}" />
                                 </move>
                             </target>
