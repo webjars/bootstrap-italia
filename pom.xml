@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>bootstrap-italia</artifactId>
-    <version>1.6.3-SNAPSHOT</version>
+    <version>1.6.4-SNAPSHOT</version>
     <name>Bootstrap Italia</name>
     <description>WebJar for Bootstrap Italia</description>
     <url>http://webjars.org</url>
